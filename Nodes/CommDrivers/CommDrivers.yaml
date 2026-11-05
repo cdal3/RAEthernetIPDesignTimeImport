@@ -1,0 +1,21 @@
+Name: CommDrivers
+Type: CommDriversCategoryFolder
+Children:
+- File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml
+- Name: TagImporter
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: UDTFilter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MYUDT1;MYUDT2"
+  - Name: Destructive
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Class: Method
+    Name: ImportTags

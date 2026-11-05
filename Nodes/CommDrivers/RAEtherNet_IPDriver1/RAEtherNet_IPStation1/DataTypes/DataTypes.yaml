@@ -1,0 +1,75 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: MYUDT1
+  Id: g=e8ff0396fcf1e25652c1b980756bd9f3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MYUDT1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e8ff0396fcf1e25652c1b980756bd9f3",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "a",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "b",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "c",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MYUDT1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MYUDT2
+  Id: g=98a27bee6ad5e175f1f6ce59287c752b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MYUDT2",
+    "DataType": {
+     "IdType": 2,
+     "Id": "98a27bee6ad5e175f1f6ce59287c752b",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "d",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "e",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "f",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MYUDT2"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
